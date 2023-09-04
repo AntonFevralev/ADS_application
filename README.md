@@ -50,7 +50,10 @@ ___
     - В файле **application.properties** указать путь к Вашей базе данных;
     - Запустите **PostgreSQL** и получите доступ к БД;
     - Запустите **Docker**;
-    - Запустите **Docker image**;
+    - Запустите **Docker image** командой
+      ```
+      docker run --rm -p 3000:3000 ghcr.io/bizinmitya/front-react-avito:v1.19
+      ```
     - Запустите приложение (метод **main** в файле **HomeworkApplication.java**);
 
 **После выполнения всех шагов веб-сайт будет доступен по адресу** http://localhost:3000
